@@ -1,0 +1,44 @@
+<!DOCTYPE 
+html>
+    <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+    
+        <script src="script.js"></script>
+    </head>
+    <body style="background-image: book1;">
+      <center>
+            <h1 style="color: rgb(0, 0, 0);">LIBRARY MANAGEMENT SYSTEM</h1>
+            <button type="button" onclick="test()">List of Available books</button>
+            <br><br>
+          </center>
+        <table >
+            <tr>
+              <td>Title:</td>
+              <td><input type="text" placeholder="Enter the Title" id="title"></td>
+              <td><button type="button" onclick="list()">Click</button></td>
+            </tr>
+            <tr>
+              <td>Author:</td>
+              <td><input type="text" placeholder="Enter the Author Name"  id="Author"></td>
+              <td><button type="button" onclick="author()">Click</button></td>
+            </tr>
+            <tr>
+              <td>Subject:</td>
+              <td><input type="text" placeholder="Enter the Subject" id="subject"></td>
+              <td><button type="button" onclick="subject()">Click</button></td>
+            </tr>
+            <tr>
+                <td>Year:</td>
+                <td><input type="text" placeholder="Enter The Year" id="Year"></td>
+                <td><button type="button" onclick="year()">Click</button></td>
+            </tr>
+          </table>
+        <p id="p"></p>
+        <center>
+          <div id="footer">Contact Us For Any Query Phone Number - 040 423423 or Email - prolib@gmail.com
+        </div>
+    </body>
+
+</html>
